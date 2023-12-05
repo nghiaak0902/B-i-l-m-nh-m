@@ -7,12 +7,14 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    background: url(https://i.redd.it/ao20kkkmte9b1.jpg);
+    background-size: 100%;
 }
 .input-box input{
     width: 312px;
     height: 48px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: none;
 }
 .input-box i {
     position: absolute;
@@ -26,9 +28,9 @@ body{
 }
 .line{
     height: 3px;
-    background: linear-gradient(to left ,red, blue,pink);
-    width: 210px;
-    margin-left: 450px;
+    background: linear-gradient(to left ,red, blue,pink,yellow);
+    width: 220px;
+    margin-left: 40px;
     margin-top: 20px;
     border-radius: 5px;
 }
@@ -36,14 +38,15 @@ body{
     height: 3px;
     background: linear-gradient(to left ,red, blue,pink);
     width: 210px;
-    margin-left:740px;
-    margin-top: -1.5px;
+    margin-left:300px;
+    margin-top: -2px;
     border-radius: 5px ;
 }
 .or{
     margin-left: 20px;
     margin-top: -16px;
     font-size: 20px;
+    color: #CCCCFF;
 }
 .wrapper button{
     width: 312px;
@@ -60,6 +63,8 @@ body{
 }
 .wrapper a{
     text-decoration: none;
+    color: white;
+    margin-left: 5px;
 }
 .wrapper a:hover{
     text-decoration: underline;
@@ -72,4 +77,17 @@ body{
     width: 10px;
     margin-left: -270px;
 }
-
+.wrapper h2{
+    color: #CCCCFF;
+}
+.wrapper{
+    width: 40%;
+    height: 80%;
+    margin-left: 400px;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 0 150px #CCCCFF;
+}
+.wrapper p{
+    color: #CCCCFF;
+}
