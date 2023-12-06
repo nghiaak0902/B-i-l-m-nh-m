@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0  ;
+    font-family: 'Aoboshi One', serif;
 }
 body{
     align-items: center;
@@ -15,6 +16,8 @@ body{
     color: #333;
     padding: 15px;
     margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 nav{
     display: flex;
@@ -26,6 +29,7 @@ nav{
     margin-left: 150px;
     font-size: 24px;
     margin-top: 20px;
+    letter-spacing: 0.5;
 }
 .box{
     background-color: white;
